@@ -5,5 +5,6 @@ function convertir(numero) {
     if (numero <=39) return convertir(10-numero)+"X"+convertir(numero-10);
     if (numero <=49) return "XL"+convertir(numero-40);
     if (numero <=89) return "L"+convertir(numero-50);
+    if (numero <=99) return "XC"+convertir(numero-90);
 }
 export default convertir;
