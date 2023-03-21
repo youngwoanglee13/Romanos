@@ -19,4 +19,7 @@ describe("Convertir", () => {
     it("deberia devolver IX al enviar 9", () => {
         expect(convertir(9)).toEqual("IX");
     });
+    it("deberia devolver X al enviar 10", () => {
+        expect(convertir(10)).toEqual("X");
+    });
 });
